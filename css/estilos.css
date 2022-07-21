@@ -1,0 +1,85 @@
+body{
+  background-image: url("../Single plant white.jpg");
+  font-family: "Cormorant Infant";
+  letter-spacing: 1px;
+  color:#829D84;
+  font-size: 25px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+header.header{
+  background-color: #F9F3E5;
+  color: #829D84;
+  height: 150px;
+  border-radius: 10px
+  display: flex;
+  align-items: center;
+}
+.toping{
+  height: 310px;
+  background-image: url("../Sola.jpg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  color: #829D84;
+  padding: 30px;
+  margin-top: 100px;
+  font-size: 25px;
+  background-color: #FFFFFFA1;
+  border-radius: 10px
+}
+.M{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+section.transparente{
+    background-color: #FFFFFFA1;
+    border-radius: 10px;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn-cita{
+  font-family: "Cormorant Infant";
+  letter-spacing: 1px;
+  color: white;
+  font-size: 25px;
+  background-color: #829D84;
+  border: 1px solid white;
+  padding: 8px;
+  border-radius: 10px
+}
+footer{
+  margin-top: 100px;
+  font-size: 15px;
+  background-color: #FFFFFFA1;
+  text-align: center;
+  border-radius: 10px
+}
+footer div{
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px
+}
+.QuienSoy{
+  background-color: #FFFFFFA1;
+  margin-top: 100px;
+  display: flex;
+  border-radius: 10px
+}
+div{
+  margin-left: 80px;
+}
+
+/* CSS para menu1.html */
+nav.livier{
+  display: flex;
+  justify-content: space-around;
+}
+img.menu1{
+border-radius: 10px;
+}

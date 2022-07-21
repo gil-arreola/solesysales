@@ -1,0 +1,26 @@
+$bordes: 10px;
+$margensuperior: 80px;
+header{
+  background-color: #fcf8e6;
+  border-radius: 10px;
+    nav{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 150px;
+      margin-top: 45px;
+        .btn-cita{
+          font-family: "Cormorant Infant";
+          letter-spacing: 1px;
+          color: white;
+          font-size: $tamletra;
+          background-color: $verde;
+          border: 1px solid white;
+          padding: 8px;
+          border-radius: $bordes;
+        }
+        img{
+          border-radius: 50%;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+header{
+  background-color: #F9F3E5;
+  color: #829D84;
+  border-radius: 10px;
+    nav{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+        .btn-cita{
+          font-family: "Cormorant Infant";
+          letter-spacing: 1px;
+          color: white;
+          font-size: 25px;
+          background-color: #829D84;
+          border: 1px solid white;
+          padding: 8px;
+          border-radius: 10px;
+        }
+    }
+}

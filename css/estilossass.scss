@@ -1,0 +1,104 @@
+$tamletra: 23px;
+$transparency: #FFFFFFCB;
+$verde: #829D84;
+@import "_header";
+@import "_footer";
+$bordes: 10px;
+$margensuperior: 90px;
+body{
+  background-image: url("../Single plant white.jpg");
+  font-family: "Cormorant Infant";
+  letter-spacing: 1px;
+  color:$verde;
+  font-size: 25px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+    section.toping{
+      background-image: url("../Sola.jpg");
+      background-position: right;
+      background-repeat: no-repeat;
+      margin-top: $margensuperior;
+      font-size: $tamletra;
+      background-color: $transparency;
+      border-radius: $bordes;
+      padding: 1%;
+      padding-right: 45%;
+      h1{
+        display: flex;
+        justify-content: center;
+      }
+      p{
+        display: flex;
+        justify-content: center;
+        margin-top: -30px;
+      }
+      h2{
+        display: flex;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+      .btn-cita2{
+        font-family: "Cormorant Infant";
+        letter-spacing: 1px;
+        color: white;
+        font-size: $tamletra;
+        background-color: $verde;
+        border: 1px solid white;
+        padding: 8px;
+        border-radius: $bordes;
+        margin-top: -.5%;
+        margin-left: 2%;
+        }
+      }
+    }
+    section.QuienSoy{
+      background-color: $transparency;
+      margin-top: $margensuperior;
+      display: flex;
+      border-radius: $bordes;
+        img{
+        border-radius: $bordes;
+        }
+        div{
+          margin-left: 80px;
+        }
+      }
+    section.M{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: $margensuperior;
+        section.transparente{
+          background-color: $transparency;
+          border-radius: $bordes;
+            img.transparente{
+              width: 100%;
+            }
+          @media screen and (max-width:768px){
+            section.transparente{
+              width: 45%;
+            }
+          }
+          @media screen and (max-width:480px){
+            section.transparente{
+              width: 80%;
+            }
+          }
+        h2{
+          display: flex;
+          justify-content: center;
+          }
+        p{
+          display: flex;
+          justify-content: center;
+          }
+        }
+    }
+}
+/* CSS para menu1.html */
+body.menu1{
+  img{
+    border-radius: 10px;
+  }
+}

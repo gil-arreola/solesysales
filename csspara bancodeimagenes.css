@@ -1,0 +1,38 @@
+body{
+  font-family: monospace;
+}
+.rejilla{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+figure{
+  margin: 1px;
+  width: 30%;
+}
+p{
+  display: flex;
+  justify-content: center;
+}
+div.Top{
+  display: flex;
+  justify-content: center;
+  font-size: 200%
+}
+figure img{
+  width: 100%;
+}
+@media screen and (max-width:768px) {
+  figure {
+    margin: 1px;
+    width: 45%;
+  }
+}
+@media screen and (max-width:480px)
+{
+  figure{
+    margin: 1px;
+    width: 80%;
+  }
+}

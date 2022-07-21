@@ -1,0 +1,15 @@
+$bordes: 10px;
+$margensuperior: 80px;
+footer{
+  margin-top: $margensuperior;
+  font-size: $tamletra;
+  background-color: $transparency;
+  font-weight: bolder;
+  text-align: center;
+  border-radius: $bordes;
+    div{
+      display: flex;
+      justify-content: space-around;
+      font-size: 15px;
+    }
+}
